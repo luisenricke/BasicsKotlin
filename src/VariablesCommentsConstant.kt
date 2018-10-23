@@ -27,5 +27,8 @@ fun main(args: Array<String>) {
     anotherVarible = null
     */
 
+    var nullSafty : Int ? = null
+
+    //println(nullSafty!!) //!! -> throws error if have null 
 
 }
