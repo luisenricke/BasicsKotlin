@@ -3,10 +3,10 @@ fun main(args: Array<String>) {
     var myPlaceHolder = "My value"
     //println(myPlaceHolder)
 
-   /*
-   myPlaceHolder = "Another value"
-    println(myPlaceHolder)
-    */
+    /*
+    myPlaceHolder = "Another value"
+     println(myPlaceHolder)
+     */
 
     var age: Int = 22
     var name: String = "Luis "
@@ -18,7 +18,7 @@ fun main(args: Array<String>) {
     val PI: Double = 3.1416
     println(PI)
 
-    var myVariableNull : String? //Variable optional
+    var myVariableNull: String? //Variable optional
     myVariableNull = null
     println(myVariableNull)
 
@@ -27,8 +27,8 @@ fun main(args: Array<String>) {
     anotherVarible = null
     */
 
-    var nullSafty : Int ? = null
+    var nullSafty: Int? = null
 
-    //println(nullSafty!!) //!! -> throws error if have null 
+    //println(nullSafty!!) //!! -> throws error if have null
 
 }
