@@ -1,3 +1,5 @@
+package OOP
+
 fun main(args: Array<String>) {
 
     var myCar: Car = Car()
@@ -12,7 +14,7 @@ fun main(args: Array<String>) {
 
     var myBoxer: Boxer = Boxer("Luis", 100, 100)
     println()
-    var Animal: Animal = Animal("Lion", "Yellow", 100, 100)
+    var Animal: Animal = Animal("OOP.Lion", "Yellow", 100, 100)
     var ohterAnimal: Animal = Animal(300)
 
 }
