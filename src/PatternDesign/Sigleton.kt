@@ -1,7 +1,5 @@
 package PatternDesign
 
-import sun.security.pkcs11.Secmod
-
 fun main(args: Array<String>) {
     var db = DBInstance.instance
     println(db.dbname)
